@@ -35,7 +35,7 @@ The flowchart on top shows the http/api workflow
 
 The flowchart below shows the html/Javascript workflow
 
-The page firsts load the bwrower, which starts the updaeData function. This then evaulutes if the data points are valid.If they are, it runs the "/api/avg/..." function that then updates the avg temp.
+The page firsts loads the browser, which starts the updateData function. This then evaluates if the data points are valid.If they are, it runs the "/api/avg/..." function that then updates the avg temp.
 
 
 
