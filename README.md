@@ -10,7 +10,7 @@ Code Installation:
 For code installation, you just need to download the file and wire the pi/enable w1.
 Important Function Flow Charts
 
-Flowcahrt 1/2:
+Flowchart 1/2:
 
 ![example image](IMG_6350.heic)
 
@@ -28,6 +28,14 @@ Flowchart 3/4
 ![example iamge](IMG_6349.heic)
 
 The flowchart on top shows the http/api workflow
+
+
+
+
+
+The flowchart below shows the html/Javascript workflow
+
+The page firsts load the bwrower, which starts the updaeData function. This then evaulutes if the data points are valid.If they are, it runs the "/api/avg/..." function that then updates the avg temp.
 
 
 
