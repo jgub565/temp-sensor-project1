@@ -1,9 +1,9 @@
 Build/Wiring
 ![example image](IMG_6353.HEIC)
-I was able to mostly follow the posted tutorial for wiring the temp sensor except for the resistor. I had to replace the 4.7k resistor with a 1k one for a stronger pull up/power connect
+I was able to mostly follow the posted tutorial for wiring the temp sensor except for the resistor. I just had to replace the 4.7k resistor with a 1k one for a stronger pull up/power connect
 
 Code Installation
-For code installation, you just need to dowloand the file, wire the pi/enable w1 and thats all.
+For code installation, you just need to download the file and wire the pi/enable w1.
 Important Function Flow Charts
 
 ![example image](IMG_6350.heic)
@@ -19,6 +19,8 @@ The add reading list gets the raw data from the censor, where it's then checked 
 ![example iamge](IMG_6349.heic)
 
 The flowchart on top shows the http/api workflow
+
+
 
 
 
