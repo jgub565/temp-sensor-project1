@@ -29,13 +29,15 @@ Flowchart 3/4
 
 The flowchart on top shows the http/api workflow
 
+The third flowchart shows the http/api workflow
+
+The browser calls GET /api/avg, the data is then split by the parse string. This new data is then added to the list. Then it gets the avg/current temp and evaluates it by the dictionary values. It is then sent back to update the browser through javascript 
 
 
 
+The flowchart on the bottom shows the html/Javascript workflow
 
-The flowchart below shows the html/Javascript workflow
-
-The page firsts loads the browser, which starts the updateData function. This then evaluates if the data points are valid.If they are, it runs the "/api/avg/..." function that then updates the avg temp.
+The page first loads the browser, which starts the updateData function. This then evaluates if the data points are valid.If they are, it runs the "/api/avg/..." function that then updates the avg temp.
 
 
 
